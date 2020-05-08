@@ -1,12 +1,18 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 
 const index = () => {
     return (
         <View>
-            <Text>Login</Text>
+            <Text style={styles.textstyle}>Login</Text>
         </View>
     )
 }
 
 export default index
+
+const styles = StyleSheet.create({
+    textstyle:{
+        fontSize:18
+    }
+})
