@@ -1,11 +1,9 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { Examples } from '@shoutem/ui';
 
 const index = () => {
     return (
-        <View>
-            <Text style={styles.textstyle}>Login</Text>
-        </View>
+        <Examples />
     )
 }
 
